@@ -110,7 +110,7 @@ const removeProductFromSepet = (productId) => {
       </n-card>
     </div>
 
-    <n-modal :show="showModal" title="Yeni Ürün Ekle" width="400px" @close="toggleModal">
+    <n-modal style="width:400px; height: auto" :show="showModal" title="Yeni Ürün Ekle" @close="toggleModal">
       <div>
         <div class="mb-6">
           <n-input v-model:value="newProduct.title" placeholder="Ürün Başlığı" />
