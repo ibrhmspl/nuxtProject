@@ -110,15 +110,40 @@ const removeProductFromSepet = (productId) => {
       </n-card>
     </div>
 
-    <n-modal style="width:400px; height: auto" :show="showModal" title="Yeni Ürün Ekle" @close="toggleModal">
-      <div>
-        <div class="mb-6">
-          <n-input v-model:value="newProduct.title" placeholder="Ürün Başlığı" />
-          <n-input v-model:value="newProduct.price" placeholder="Ürün Fiyatı" type="number" />
-          <n-input v-model:value="newProduct.description" placeholder="Ürün Açıklaması" />
-
+    <n-modal
+        style="width:600px; height: 300px; background: rgb(132 141 159)"
+        v-model:show="showModal"
+        title="Yeni Ürün Ekle"
+        @close="toggleModal"
+        aria-modal="true"
+    >
+      <div style="display: flex; flex-direction: column; align-items: center;">
+        <h1>Ürün Ekle</h1>
+        <div class="mb-6" style="width: 100%; max-width: 400px; margin-block: auto">
+          <n-input
+              v-model:value="newProduct.title"
+              placeholder="Ürün Başlığı"
+              style="margin-bottom: 10px; width: 100%;"
+          />
+          <n-input
+              v-model:value="newProduct.price"
+              placeholder="Ürün Fiyatı"
+              type="number"
+              style="margin-bottom: 10px; width: 100%;"
+          />
+          <n-input
+              v-model:value="newProduct.description"
+              placeholder="Ürün Açıklaması"
+              style="margin-bottom: 10px; width: 100%;"
+          />
         </div>
-        <n-button type="primary" @click="submitProduct">Ürünü Ekle</n-button>
+        <n-button
+            type="primary"
+            @click="submitProduct"
+            style="align-self: center;"
+        >
+          Ürünü Ekle
+        </n-button>
       </div>
     </n-modal>
 
