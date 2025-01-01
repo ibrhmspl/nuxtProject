@@ -113,7 +113,7 @@ const removeProductFromSepet = (productId) => {
     <n-modal
         style="width:600px; height: 300px; background: rgb(132 141 159)"
         v-model:show="showModal"
-        title="Yeni Ürün Ekle"
+        title="Yeni Ürün Ekleeee"
         @close="toggleModal"
         aria-modal="true"
     >
