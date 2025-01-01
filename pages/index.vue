@@ -7,7 +7,7 @@ const sepetStore = useCartStore();
 const showSepetDrawer = ref(false);
 const showModal = ref(false);
 const products = ref([]);
-const  deneme = "github"
+const  deneme = "githubbb"
 
 
 const newProduct = ref({
