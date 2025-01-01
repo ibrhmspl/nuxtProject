@@ -122,7 +122,7 @@ const removeProductFromSepet = (productId) => {
         <div class="mb-6" style="width: 100%; max-width: 400px; margin-block: auto">
           <n-input
               v-model:value="newProduct.title"
-              placeholder="Ürün Başlığı"
+              placeholder="Ürün Başlığııııı"
               style="margin-bottom: 10px; width: 100%;"
           />
           <n-input
