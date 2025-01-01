@@ -133,7 +133,11 @@ const removeProductFromSepet = (productId) => {
           />
           <n-input
               v-model:value="newProduct.description"
+<<<<<<< HEAD
+              placeholder="Ürün Açıklamasıııı"
+=======
               placeholder="Ürün Açıklamasııı"
+>>>>>>> 13281f62c1295065660f989491699b1379c0044a
               style="margin-bottom: 10px; width: 100%;"
           />
         </div>
