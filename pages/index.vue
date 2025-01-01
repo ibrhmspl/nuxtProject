@@ -113,7 +113,7 @@ const removeProductFromSepet = (productId) => {
     <n-modal
         style="width:600px; height: 300px; background: rgb(132 141 159)"
         v-model:show="showModal"
-        title="Yeni Ürün Ekle"
+        title="Yeni Ürün Ekleeee"
         @close="toggleModal"
         aria-modal="true"
     >
@@ -133,7 +133,11 @@ const removeProductFromSepet = (productId) => {
           />
           <n-input
               v-model:value="newProduct.description"
+<<<<<<< HEAD
               placeholder="Ürün Açıklamasıııı"
+=======
+              placeholder="Ürün Açıklamasııı"
+>>>>>>> 13281f62c1295065660f989491699b1379c0044a
               style="margin-bottom: 10px; width: 100%;"
           />
         </div>
