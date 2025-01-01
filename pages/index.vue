@@ -127,7 +127,7 @@ const removeProductFromSepet = (productId) => {
           />
           <n-input
               v-model:value="newProduct.price"
-              placeholder="Ürün Fiyatı"
+              placeholder="Ürün Fiyatıııı"
               type="number"
               style="margin-bottom: 10px; width: 100%;"
           />
